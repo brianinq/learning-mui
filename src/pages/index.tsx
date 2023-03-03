@@ -1,10 +1,11 @@
 import Head from "next/head";
 import { Roboto } from "next/font/google";
 import MuiTypography from "@/components/MuiTypography";
+import MuiButtons from "@/components/MuiButtons";
 
 const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["100", "300", "400", "500", "700"],
+  weight: ["300", "400", "500", "700"],
 });
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={roboto.className}>
-        <MuiTypography />
+        {/* <MuiTypography /> */}
+        <MuiButtons />
       </main>
     </>
   );
