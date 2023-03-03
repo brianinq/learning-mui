@@ -3,6 +3,8 @@ import { Roboto } from "next/font/google";
 import MuiTypography from "@/components/MuiTypography";
 import MTextField from "@/components/TextField";
 import MuiSelect from "@/components/MuiSelect";
+import MuiButtons from "@/components/MuiButtons";
+import MuiRadioButton from "@/components/MuiRadioButton";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -22,7 +24,8 @@ export default function Home() {
         {/* <MuiTypography /> */}
         {/* <MuiButtons /> */}
         {/* <MTextField /> */}
-        <MuiSelect />
+        {/* <MuiSelect /> */}
+        <MuiRadioButton />
       </main>
     </>
   );
