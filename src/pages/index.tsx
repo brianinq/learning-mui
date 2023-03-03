@@ -5,6 +5,7 @@ import MTextField from "@/components/TextField";
 import MuiSelect from "@/components/MuiSelect";
 import MuiButtons from "@/components/MuiButtons";
 import MuiRadioButton from "@/components/MuiRadioButton";
+import MuiCheckBox from "@/components/MuiCheckBox";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -25,7 +26,8 @@ export default function Home() {
         {/* <MuiButtons /> */}
         {/* <MTextField /> */}
         {/* <MuiSelect /> */}
-        <MuiRadioButton />
+        {/* <MuiRadioButton /> */}
+        <MuiCheckBox />
       </main>
     </>
   );
