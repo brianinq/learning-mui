@@ -16,6 +16,7 @@ import MuiAccordeon from "@/components/MuiAccordion";
 import MuiImageList from "@/components/MuiImageList";
 import MuiNav from "@/components/MuiNav";
 import { Box } from "@mui/material";
+import MuiBreadCrumbs from "@/components/MuiBreadCrumbs";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -46,7 +47,8 @@ export default function Home() {
         {/* <MuiCard /> */}
         {/* <MuiAccordeon /> */}
         {/* <MuiImageList /> */}
-        <MuiNav />
+        {/* <MuiNav /> */}
+        <MuiBreadCrumbs />
       </Box>
     </>
   );
