@@ -9,6 +9,7 @@ import MuiCheckBox from "@/components/MuiCheckBox";
 import MuiSwitch from "@/components/MuiSwitch";
 import MuiRating from "@/components/MuiRating";
 import MuiAutoComplete from "@/components/MuiAutoComplete";
+import MuiLayout from "@/components/MuiLayout";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -33,7 +34,8 @@ export default function Home() {
         {/* <MuiCheckBox /> */}
         {/* <MuiSwitch /> */}
         {/* <MuiRating /> */}
-        <MuiAutoComplete />
+        {/* <MuiAutoComplete /> */}
+        <MuiLayout />
       </main>
     </>
   );
