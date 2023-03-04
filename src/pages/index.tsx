@@ -12,6 +12,7 @@ import MuiAutoComplete from "@/components/MuiAutoComplete";
 import MuiLayout from "@/components/MuiLayout";
 import MuiGrids from "@/components/MuiGrids";
 import MuiCard from "@/components/MuiCard";
+import MuiAccordeon from "@/components/MuiAccordion";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -39,7 +40,8 @@ export default function Home() {
         {/* <MuiAutoComplete /> */}
         {/* <MuiLayout /> */}
         {/* <MuiGrids /> */}
-        <MuiCard />
+        {/* <MuiCard /> */}
+        <MuiAccordeon />
       </main>
     </>
   );
