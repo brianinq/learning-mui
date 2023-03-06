@@ -20,6 +20,7 @@ import MuiBreadCrumbs from "@/components/MuiBreadCrumbs";
 import MuiDrawer from "@/components/MuiDrawer";
 import MuiSpeedDial from "@/components/MuiSpeedDial";
 import MuiBottomNav from "@/components/MuiBottomNav";
+import MuiAvatar from "@/components/MuiAvatar";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -54,7 +55,8 @@ export default function Home() {
         {/* <MuiBreadCrumbs /> */}
         {/* <MuiDrawer /> */}
         {/* <MuiSpeedDial /> */}
-        <MuiBottomNav />
+        {/* <MuiBottomNav /> */}
+        <MuiAvatar />
       </Box>
     </>
   );
