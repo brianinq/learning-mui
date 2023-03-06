@@ -33,6 +33,7 @@ import MuiProgress from "@/components/MuiProgress";
 import MuiSkeleton from "@/components/MuiSkeleton";
 import MuiLoadingButton from "@/components/MuiLoadingButton";
 import MuiDatePicker from "@/components/MuiDatePicker";
+import MuiTabs from "@/components/MuiTabs";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -80,7 +81,8 @@ export default function Home() {
         {/* <MuiProgress /> */}
         {/* <MuiSkeleton /> */}
         {/* <MuiLoadingButton /> */}
-        <MuiDatePicker />
+        {/* <MuiDatePicker /> */}
+        <MuiTabs />
       </Box>
     </>
   );
