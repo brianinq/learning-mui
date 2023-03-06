@@ -21,6 +21,7 @@ import MuiDrawer from "@/components/MuiDrawer";
 import MuiSpeedDial from "@/components/MuiSpeedDial";
 import MuiBottomNav from "@/components/MuiBottomNav";
 import MuiAvatar from "@/components/MuiAvatar";
+import MuiBadge from "@/components/MuiBadge";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -36,7 +37,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Box component={"main"} className={roboto.className}>
+      <Box component={"main"} p={5} className={roboto.className}>
         {/* <MuiTypography /> */}
         {/* <MuiButtons /> */}
         {/* <MTextField /> */}
@@ -56,7 +57,8 @@ export default function Home() {
         {/* <MuiDrawer /> */}
         {/* <MuiSpeedDial /> */}
         {/* <MuiBottomNav /> */}
-        <MuiAvatar />
+        {/* <MuiAvatar /> */}
+        <MuiBadge />
       </Box>
     </>
   );
