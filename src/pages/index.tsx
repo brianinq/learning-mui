@@ -23,6 +23,7 @@ import MuiBottomNav from "@/components/MuiBottomNav";
 import MuiAvatar from "@/components/MuiAvatar";
 import MuiBadge from "@/components/MuiBadge";
 import MuiList from "@/components/MuiList";
+import MuiChip from "@/components/MuiChip";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -60,7 +61,8 @@ export default function Home() {
         {/* <MuiBottomNav /> */}
         {/* <MuiAvatar /> */}
         {/* <MuiBadge /> */}
-        <MuiList />
+        {/* <MuiList /> */}
+        <MuiChip />
       </Box>
     </>
   );
