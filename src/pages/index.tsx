@@ -25,6 +25,7 @@ import MuiBadge from "@/components/MuiBadge";
 import MuiList from "@/components/MuiList";
 import MuiChip from "@/components/MuiChip";
 import MuiToolTip from "@/components/MuiToolTip";
+import MuiTable from "@/components/MuiTable";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -64,7 +65,8 @@ export default function Home() {
         {/* <MuiBadge /> */}
         {/* <MuiList /> */}
         {/* <MuiChip /> */}
-        <MuiToolTip />
+        {/* <MuiToolTip /> */}
+        <MuiTable />
       </Box>
     </>
   );
