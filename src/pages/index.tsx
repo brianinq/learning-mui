@@ -29,6 +29,8 @@ import MuiTable from "@/components/MuiTable";
 import MuiAlert from "@/components/MuiAlert";
 import MuiSnackBar from "@/components/MuiSnackBar";
 import MuiDialog from "@/components/MuiDialog";
+import MuiProgress from "@/components/MuiProgress";
+import MuiSkeleton from "@/components/MuiSkeleton";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -72,7 +74,9 @@ export default function Home() {
         {/* <MuiTable /> */}
         {/* <MuiAlert /> */}
         {/* <MuiSnackBar /> */}
-        <MuiDialog />
+        {/* <MuiDialog /> */}
+        {/* <MuiProgress /> */}
+        <MuiSkeleton />
       </Box>
     </>
   );
