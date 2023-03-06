@@ -22,6 +22,7 @@ import MuiSpeedDial from "@/components/MuiSpeedDial";
 import MuiBottomNav from "@/components/MuiBottomNav";
 import MuiAvatar from "@/components/MuiAvatar";
 import MuiBadge from "@/components/MuiBadge";
+import MuiList from "@/components/MuiList";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -58,7 +59,8 @@ export default function Home() {
         {/* <MuiSpeedDial /> */}
         {/* <MuiBottomNav /> */}
         {/* <MuiAvatar /> */}
-        <MuiBadge />
+        {/* <MuiBadge /> */}
+        <MuiList />
       </Box>
     </>
   );
